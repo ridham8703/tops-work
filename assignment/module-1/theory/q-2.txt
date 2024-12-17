@@ -36,4 +36,12 @@ Ans:-
 
 Q-What are the main differences between high-level and low-level programminglanguages?
 Ans:-
-    
+1.	It is programmer friendly language.	                It is a machine friendly language.
+2.	High level language is less memory efficient.	    Low level language is high memory efficient.
+3.	It is easy to understand.	                        It is tough to understand.
+4.	Debugging is easy.	                                Debugging is complex comparatively.
+5.	It is simple to maintain.	                        It is complex to maintain comparatively.
+6.	It is portable.	                                    It is non-portable.
+7.	It can run on any platform.	                        It is machine-dependent.
+8.	It needs compiler or interpreter for translation.	It needs assembler for translation.
+9.	It is used widely for programming.	                It is not commonly used now-a-days in programming.

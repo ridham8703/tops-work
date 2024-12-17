@@ -1,0 +1,32 @@
+World Wide Web & How Internet Works?
+
+Q:-Describe the roles of the client and server in web communication. Network Layers on Client and Server
+Ans:-
+                                Client's Role                                               Server's Role
+Application Layer	Requests resources via HTTP/HTTPS, renders web pages	Serves web pages and processes requests (HTTP responses)
+Transport Layer	    Sends and receives TCP packets to/from the server	    Receives and sends TCP packets, ensuring data reliability
+Internet Layer	    Uses IP to route requests to the server	                Uses IP to route responses back to the client
+Data Link Layer	    Uses Ethernet/Wi-Fi to send data over the network	    Uses Ethernet/Wi-Fi to receive and send data over the network
+Physical Layer	    Transmits data over physical media (e.g., Wi-Fi)	    Transmits data over physical media (e.g., Wi-Fi, Ethernet)  
+
+
+Q:- : Explain the function of the TCP/IP model and its layers.
+Ans:-
+The TCP/IP model is structured into four layers:
+
+Application Layer 
+function:-
+The Application Layer is responsible for interacting with the user and providing network services directly to end-user applications. It enables communication between software programs running on different devices, allowing them to send and receive data.
+
+Transport Layer
+function:-
+The Transport Layer is responsible for end-to-end communication and data integrity between devices. It ensures that data is properly transferred, errors are detected and corrected, and the data arrives in the correct order.
+
+Internet Layer
+function:-
+The Internet Layer is responsible for routing packets of data from the source to the destination across multiple networks. It ensures that data can travel between devices located on different networks and subnets.
+
+Network Interface Layer
+function:-  
+The Network Interface Layer (also known as the Link Layer) is responsible for physically transmitting data over a network. It defines how data is formatted for transmission and the method by which devices on the same network communicate with each other.
+

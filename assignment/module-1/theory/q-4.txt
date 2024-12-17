@@ -1,0 +1,8 @@
+    Client and server
+
+    Q:-Explain Client Server Communication
+    Ans:-
+    Client-server communication is a model where a client sends a request to a server over a network, and the server responds with a response:
+Request: The client sends a request to the server.
+Process: The server processes the request and performs the necessary actions.
+Response: The server sends a response back to the client. 
