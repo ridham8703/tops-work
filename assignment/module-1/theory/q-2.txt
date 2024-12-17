@@ -1,0 +1,39 @@
+What is Programming?
+Ans:-
+Programming is the process of writing instructions for a computer to perform specific tasks or solve problems.
+
+Q-What are the key steps involved in the programming process?
+Ans:-
+1-Problem Analysis: Understand the task and its requirements.
+2-Design: Plan the solution using algorithms and structures.
+3-Programming: Write the actual code.
+4-Testing: Ensure the code works correctly through various tests.
+5-Optimization: Improve performance and refactor code.
+6-Documentation: Provide clear comments and user guides.
+7-Deployment: Make the program available for use.
+8-Maintenance: Continuously monitor, fix issues, and update the program.
+
+Q-Types of Programming Languages?
+Ans:-
+1-Low-Level Languages:
+
+    Machine Language (binary, directly executed by hardware)
+    Assembly Language (symbolic code, closer to machine code)
+2- High-Level Languages:
+
+    Procedural (e.g., C, Fortran)
+    Object-Oriented (e.g., Java, C++)
+    Functional (e.g., Haskell, Lisp)
+    Declarative (e.g., SQL, Prolog)
+    Scripting (e.g., Python, JavaScript)
+3-Markup and Query Languages:
+
+    Markup (e.g., HTML, XML)
+    Query (e.g., SQL)
+4-Domain-Specific Languages (e.g., MATLAB, R, VHDL)
+
+5-Esoteric Languages (e.g., Brainfuck, Malbolge)
+
+Q-What are the main differences between high-level and low-level programminglanguages?
+Ans:-
+    
