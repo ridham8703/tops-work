@@ -1,0 +1,87 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+class Pizza {
+public:
+    string name;
+    double price; // for decimal number i use double 
+
+    Pizza(string pizzaName, double pizzaPrice) {
+        name = pizzaName;
+        price = pizzaPrice;
+    }
+
+    void displayPizza() {
+        cout << name << " - $" << price << endl;
+    }
+};
+class PizzaOrder {
+public:
+    vector<Pizza> pizzasOrdered;
+    double totalAmount;
+
+    PizzaOrder() {
+        totalAmount = 0;
+    }
+
+    void addPizza(Pizza pizza) {
+        pizzasOrdered.push_back(pizza);
+        totalAmount += pizza.price;
+    }
+
+    void displayBill() {
+        cout << "\n--- Your Pizza Order ---\n";
+        for (auto &pizza : pizzasOrdered) {
+            cout << pizza.name << " - $" << pizza.price << endl;
+        }
+        cout << "\nTotal Amount: $" << totalAmount << endl;
+    }
+};
+int main() {
+    vector<Pizza> menu = {
+        Pizza("Margherita", 8.99),
+        Pizza("Pepperoni", 9.99),
+        Pizza("7 cheesy", 14.99),
+        Pizza("Vegetarian", 10.49),
+        Pizza("Hawaiian", 9.49)
+    };
+
+    PizzaOrder order;
+    int choice;
+    char addMore = 'y';
+
+    cout << "Welcome to the Pizza store!" << endl;
+    cout << "------------------------------------\n";
+    cout << "The price of pizza is a medium size hand pan pizza\n";
+    cout << "------------------------------------\n";
+
+    while (addMore == 'y' || addMore == 'Y') {
+        cout << "\nMenu: \n";
+        for (int i = 0; i < menu.size(); i++) {
+            cout << i + 1 << ". ";
+            menu[i].displayPizza();
+        }
+
+        cout << "\nEnter the number of the pizza you want to order: ";
+        cin >> choice;
+
+        if (choice >= 1 && choice <= menu.size()) {
+            order.addPizza(menu[choice - 1]);
+            cout << "You have added " << menu[choice - 1].name << " to your order.\n";
+        } else {
+            cout << "Invalid choice. Please try again.\n";
+        }
+
+        cout << "Do you want to add more pizzas? (y/n): ";
+        cin >> addMore;
+    }
+
+    order.displayBill();
+
+    cout << "\nThank you for your order! Have a great day!" << endl;
+
+    
+
+    return 0;
+}
