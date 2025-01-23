@@ -19,16 +19,16 @@ int main() {
         cout<< "Please check your meter "<< endl;
     }
                 cout<<"--------------------------------"<< endl;
-    if(total_consumed_unit >= 0){
-        if(total_consumed_unit = 0 && total_consumed_unit <= 100){
-            cout<<"Your bill is: "<<total_consumed_unit*10<<"₹";
-         }else if(total_consumed_unit == 101 && total_consumed_unit <= 250){
-            cout<<"Your bill is: "<<total_consumed_unit*15<<"₹";
-         }else if(total_consumed_unit == 251 && total_consumed_unit <= 350){
-            cout<<"Your bill is: "<<total_consumed_unit*25<<"₹";
-         }else{
-            cout<<"Your bill is: "<<total_consumed_unit*35<<"₹";
-        }
+                if(total_consumed_unit >= 0){
+    if(total_consumed_unit == 0 && total_consumed_unit <= 100){
+        cout<<"Your bill is: "<<total_consumed_unit*10<<"₹";
+    }else if(total_consumed_unit == 101 && total_consumed_unit <= 250){
+        cout<<"Your bill is: "<<total_consumed_unit*15<<"₹";
+    }else if(total_consumed_unit == 251 && total_consumed_unit <= 350){
+        cout<<"Your bill is: "<<total_consumed_unit*25<<"₹";
+    }else{
+        cout<<"Your bill is: "<<total_consumed_unit*35<<"₹";
     }
+                }
     return 0;
 }
